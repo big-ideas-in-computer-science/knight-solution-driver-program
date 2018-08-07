@@ -22,4 +22,3 @@ def run(board_size, start_row, start_col, genration_max):
 
     return best_path_found
 
-
