@@ -55,7 +55,7 @@ def findbest(population):
     """finds best individual from a population"""
     best = population[0]
     for i in population:
-        if i.fitness() < best.fitness():
+        if i.fitness() > best.fitness():
             best = i
     return best
 
