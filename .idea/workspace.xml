@@ -33,14 +33,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2356" />
-          <entry key="txt" value="47" />
+          <entry key="py" value="3620" />
+          <entry key="txt" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="47" />
-          <entry key="Python" value="2356" />
+          <entry key="PLAIN_TEXT" value="77" />
+          <entry key="Python" value="3620" />
         </counts>
       </usages-collector>
     </session>
@@ -50,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Downloads/EvolutionaryComputationTSP-master/GeneticTSP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2516">
-              <caret line="151" column="22" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
+            <state relative-caret-position="374">
+              <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="49" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -62,12 +62,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/experiment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+            <state relative-caret-position="204">
+              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1533718379022" expanded="true" signature="2610:2612" ph="..." />
-                <marker date="1533718379022" expanded="true" signature="2884:3413" ph="..." />
+                <marker date="1533722502126" expanded="true" signature="4901:5037" ph="..." />
               </folding>
             </state>
           </provider>
@@ -76,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interface.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="119">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding>
                 <marker date="1533650395956" expanded="true" signature="389:439" ph="..." />
               </folding>
@@ -111,6 +110,7 @@
       <find>x</find>
       <find>reproduce</find>
       <find>ValueError</find>
+      <find>nrof</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,8 +126,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="46" />
-    <option name="y" value="-12" />
+    <option name="x" value="68" />
+    <option name="y" value="34" />
     <option name="width" value="2800" />
     <option name="height" value="1800" />
   </component>
@@ -220,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533650846956</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed find best function">
+      <created>1533718395609</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1533718395609</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -228,16 +235,16 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4956217" visible="true" weight="0.22071767" />
-      <window_info id="Structure" order="2" sideWeight="0.50437826" side_tool="true" visible="true" weight="0.22071767" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49543378" visible="true" weight="0.22071767" />
+      <window_info id="Structure" order="2" sideWeight="0.5045662" side_tool="true" visible="true" weight="0.22071767" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48591548" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298122" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48591548" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39906102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3298122" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298122" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298122" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -252,30 +259,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Interface" />
     <MESSAGE value="Added Driver" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Driver" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/experiment.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Fixed find best function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed find best function" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/EvolutionaryComputationTSP-master/GeneticTSP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2516">
-          <caret line="151" column="22" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -288,22 +275,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
             <marker date="1533650395956" expanded="true" signature="389:439" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment.py">
+    <entry file="file://$USER_HOME$/Downloads/EvolutionaryComputationTSP-master/GeneticTSP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+        <state relative-caret-position="374">
+          <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="49" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1533718379022" expanded="true" signature="2610:2612" ph="..." />
-            <marker date="1533718379022" expanded="true" signature="2884:3413" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1533722502126" expanded="true" signature="4901:5037" ph="..." />
           </folding>
         </state>
       </provider>
