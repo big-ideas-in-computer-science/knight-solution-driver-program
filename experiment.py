@@ -5,7 +5,7 @@ import interface
 survivalRatio = 0.5
 reproductionTypeRatio = 0.5
 elite = False
-nrOfGenerations = 10000
+#nrOfGenerations = 99
 printValues = True
 
 def generation(population):
@@ -83,11 +83,15 @@ def run(board_size, start_row, start_col, evaluation_max):
     individual = interface.IndividualGene(conf)
     population_size = conf.board_size ** 2
     population = make_population(conf, population_size)
+    nrOfGenerations = int((evaluation_max-population_size*(survivalRatio))/
+                          (population_size*(1-survivalRatio)))
 
     for i in range(nrOfGenerations-1):
         population = generation(population)
+
         if printValues is True:
             best = findbest(population)
+
             print("Best solution in population " + str(i + 2) + ": length: "+ str(best.fitness()) + ", solution: " + str(best.path()))
 
     # best = findBest(population)
